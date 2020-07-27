@@ -1,0 +1,11 @@
+.l-header{
+    width: 100vw;
+    height: 90px;
+    background: #fff;
+    filter: drop-shadow(2px 2px 4px lightgray);
+    // overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}

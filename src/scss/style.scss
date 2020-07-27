@@ -1,0 +1,27 @@
+$ukuk-color: #ED711A;
+$ukuk-color2: #FFA800;
+$ukuk-color3: #FF3D00;
+html{
+    font-size: 62.5%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    display: block;
+}
+
+@import './layout/_header';
+@import './layout/_main';
+
+@import './object/project/_header';
+@import './object/project/_hero';
+@import './object/project/_youtube';
+@import './object/project/_topic';
+@import './object/project/_app';
+
+@import './object/utility/_visuallyHidden';
+

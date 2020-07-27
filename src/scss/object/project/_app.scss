@@ -1,0 +1,19 @@
+.p-app{
+    width: 100vw;
+    height: 1000px;
+    @at-root {
+        &__in{
+            max-width: 1000px;
+            width: 71.4%;
+            height: 275px;
+            margin: 0 auto;
+            position: relative;
+        }
+        &__img{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+    }
+}

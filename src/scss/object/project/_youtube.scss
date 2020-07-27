@@ -1,0 +1,112 @@
+.p-youtube{
+    width: 100vw;
+    // overflow: hidden;
+    // z-index: 998;
+    position: relative;
+    padding-top: 90px;
+    @at-root {
+        &__sliderArea {
+            max-width: 100%;
+            margin: 0 auto;
+            /* padding: 0 25px; */
+        }
+        &__slick-item{
+            position: relative;
+            margin: unset;
+        }
+        &__slick-itemSub{
+            opacity: .5;
+        }
+        &__slick-item img{
+            position: relative;
+            height: 543px;
+            object-fit: cover;
+            object-position: top;
+            z-index: 999;
+        }
+        &__slideText{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            z-index: 1000;
+        }
+        &__items{
+            height: 543px;
+            position: relative;
+        }
+        &__items::after{
+            content: "";
+            position: absolute;
+            top: auto;
+            right: 0;
+            bottom: -30px;
+            left: 0;
+            z-index: 101;
+            display: block;
+            width: 0;
+            margin: auto;
+            border: 20px solid transparent;
+            // border-bottom: solid 30px transparent;
+            border-bottom-color: #fff;
+            pointer-events: none;
+        }
+        &__slide2{
+            background-image: url(./../img/topic.png);
+            padding-bottom: 120px;
+        }
+        &__sumnailList{
+            // background: $ukuk-color3;
+            position: relative;
+        }
+        &__textArea{
+            width: 69.4%;
+            margin: 0 auto;
+            color: #fff;
+            position: relative;
+        }
+        &__text1{
+            position: absolute;
+            top: -22px;
+            left: 48%;
+            font-size: 2.4rem;
+            letter-spacing: 10px;
+        }
+        &__text1 span{
+            font-size: 2rem;
+        }
+        &__text2{
+            text-align: center;
+            font-size: 4.8rem;
+            font-weight: bold;
+            padding-right: 14px;
+            margin-bottom: 24px;
+        }
+        &__text2 span:first-child{
+            font-size: 2rem;
+            margin: 0 6px;
+        }
+        &__text3,
+        &__text4{
+            font-size: 1.8rem;
+            margin-bottom: 4px;
+        }
+        &__text3 span{
+            font-size: 2.2rem;
+            font-weight: bold;
+        }
+        &__text4{
+            line-height: 2.8rem;
+        }
+    }
+}
+.slider{
+    box-sizing: border-box;
+}
+.slick-center{
+    outline: solid 5px #fff;
+    box-sizing: border-box;
+    opacity: 1;
+}
+.slick-track{
+    padding: 10px 0 62px;
+}

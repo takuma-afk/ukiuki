@@ -1,0 +1,10 @@
+$(function(){
+	$(".p-header__accoArea").css("display","none");
+	$(".p-header__acco").click(function(){
+		if($(".p-header__accoArea").css("display")=="none"){
+			$(".p-header__accoArea").slideDown(300);
+		}else{
+            $(".p-header__accoArea").slideUp(300);
+        }
+	});
+});
