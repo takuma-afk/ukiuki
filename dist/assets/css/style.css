@@ -3,6 +3,18 @@ html {
 	font-family: 'Noto Sans JP', sans-serif;
 }
 
+body {
+	height: 100%;
+	font-size: 1.8rem;
+	font-family: 'Noto Sans JP', 'Noto Serif JP', sans-serif;
+	font-feature-settings: "palt";
+	letter-spacing: 0.15rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscalle;
+	line-height: 1;
+	position: relative;
+}
+
 img {
 	max-width: 100%;
 	height: auto;

@@ -1,16 +1,31 @@
 $ukuk-color: #ED711A;
 $ukuk-color2: #FFA800;
 $ukuk-color3: #FF3D00;
-html{
+
+html {
     font-size: 62.5%;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-img{
+body {
+    height: 100%;
+    font-size: 1.8rem;
+    font-family: 'Noto Sans JP', 'Noto Serif JP', sans-serif;
+  
+    font-feature-settings: "palt";
+    letter-spacing: 0.15rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscalle;
+    line-height: 1;
+    position: relative;
+}
+
+img {
     max-width: 100%;
     height: auto;
 }
-a{
+
+a {
     display: block;
 }
 
@@ -24,4 +39,3 @@ a{
 @import './object/project/_app';
 
 @import './object/utility/_visuallyHidden';
-
