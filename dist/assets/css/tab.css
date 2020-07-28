@@ -1,66 +1,81 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
-.tabs{
-  width:50%;
-  margin:10px auto;
-  position:relative;
+.tabs {
+  width: 50%;
+  margin: 10px auto;
+  position: relative;
 }
-.tab-buttons span{
-  font:400 14px 'open sans',sans-serif;
-  
- 
-  cursor:pointer;
-  
-  display:block;
-  width:33.3%;
-  float:left;
-  text-align:center;
-  height:250px;
-  line-height:40px;
+
+.tab-buttons span {
+  font: 400 14px 'open sans', sans-serif;
+
+
+  cursor: pointer;
+
+  display: block;
+  width: 25%;
+  float: left;
+  text-align: center;
+  height: 250px;
+  line-height: 40px;
 }
-.tab-content{
-  padding:15px;
-  background:#eee;
-  display:inline-block;
-  font:400 13px 'open sans',sans-serif;
-  
+
+.tab-content {
+  padding: 15px;
+  background: #eee;
+  display: inline-block;
+  font: 400 13px 'open sans', sans-serif;
+
 }
-#lamp{
+
+#lamp {
   width: 35%;
-  height:24px;
+  height: 24px;
   margin-top: 50px;
-  display:block;
-  position:absolute;
-  top:40px;
+  display: block;
+  position: absolute;
+  top: 40px;
   transition: all .3s ease-in;
--o-transition: all .3s ease-in;
--webkit-transition: all .3s ease-in;
--moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
 }
-#lamp.content2{
-  left:33.3%;
+
+#lamp.content2 {
+  left: 33.3%;
   background-image: url(../img/Vector_94.svg);
   background-repeat: no-repeat;
   transition: all .3s ease-in;
--o-transition: all .3s ease-in;
--webkit-transition: all .3s ease-in;
--moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
 }
-#lamp.content3{
-  left:66.6%;
+
+#lamp.content3 {
+  left: 66.6%;
   background-image: url(../img/Vector_94.svg);
   background-repeat: no-repeat;
   transition: all .3s ease-in;
--o-transition: all .3s ease-in;
--webkit-transition: all .3s ease-in;
--moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
 }
-#lamp.content1{
-  left:0;
+#lamp.content4 {
+  left: 100%;
   background-image: url(../img/Vector_94.svg);
   background-repeat: no-repeat;
   transition: all .3s ease-in;
--o-transition: all .3s ease-in;
--webkit-transition: all .3s ease-in;
--moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+}
+
+#lamp.content1 {
+  left: 0;
+  background-image: url(../img/Vector_94.svg);
+  background-repeat: no-repeat;
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
 }
