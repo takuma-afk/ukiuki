@@ -513,9 +513,26 @@ a {
 	height: auto;
 }
 
+.p-sub-imp__h2 {
+	margin: 0 auto;
+	width: max-content;
+}
+
 .p-sub-image {
 	margin: 0 auto;
 	max-width: 1000px;
+}
+
+.p-sub-image__h2 {
+	margin: 0 auto;
+	width: max-content;
+}
+
+.p-sub-image__contTitle {
+	box-sizing: border-box;
+	width: 70%;
+	margin: 0 auto;
+	padding: 1rem;
 }
 
 .p-sub-image__contIn {
