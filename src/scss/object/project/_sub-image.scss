@@ -1,0 +1,11 @@
+.p-sub-image{
+    margin :0 auto;
+    max-width: 1000px;
+    &__contIn{
+        display: flex;
+        justify-content: space-between;
+          }
+          &__textArea{
+            width: 40%;
+        }
+}

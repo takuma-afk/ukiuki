@@ -509,6 +509,24 @@ a {
 	transform: translate(-50%, 0);
 }
 
+.p-sub-imp {
+	height: auto;
+}
+
+.p-sub-image {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.p-sub-image__contIn {
+	display: flex;
+	justify-content: space-between;
+}
+
+.p-sub-image__textArea {
+	width: 40%;
+}
+
 .u-visuallyHidden {
 	position: absolute;
 	white-space: nowrap;
@@ -519,5 +537,11 @@ a {
 	padding: 0;
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
+}
+
+.u-clearfix {
+	content: "";
+	display: block;
+	clear: both;
 }
 
