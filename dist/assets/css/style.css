@@ -517,7 +517,6 @@ a {
 .p-sub-imp__h2 {
 	margin: 0 auto;
 	width: max-content;
-	font-size: 36px;
 }
 
 .p-sub-imp__mainCont {
@@ -526,6 +525,7 @@ a {
 	height: 385px;
 	background-image: url(../../../dist/assets/img/Rectangle_330.svg);
 	background-position: bottom;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	display: flex;
 	justify-content: space-between;
@@ -540,6 +540,7 @@ a {
 	color: white;
 	width: 860px;
 	padding-left: 5.5rem;
+	padding-bottom: 5rem;
 }
 
 .p-sub-imp__mainCont .p-sub-imp__mainTextarea h3 {
@@ -572,6 +573,7 @@ a {
 	height: 385px;
 	background-image: url(../../../dist/assets/img/Rectangle_331.svg);
 	background-position: bottom;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	display: flex;
 	justify-content: space-between;
@@ -586,6 +588,7 @@ a {
 	color: white;
 	width: 860px;
 	padding-left: 5.5rem;
+	padding-bottom: 5rem;
 }
 
 .p-sub-imp__mainCont--mod .p-sub-imp__mainTextarea h3 {
@@ -646,6 +649,7 @@ a {
 
 .c-sub-h2 {
 	text-align: center;
+	font-size: 36px;
 }
 
 .c-sub-h2::after {
