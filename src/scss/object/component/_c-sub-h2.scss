@@ -1,0 +1,8 @@
+.c-sub-h2{
+    text-align: center;
+    &::after{
+content: url(../../../dist/assets/img/Group_467.svg);
+display: block;
+margin-top: -1rem;
+    }
+}
