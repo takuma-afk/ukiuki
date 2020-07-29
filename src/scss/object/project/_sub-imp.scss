@@ -8,10 +8,11 @@
     }
     &__mainCont{
         box-sizing: border-box;
-        width: 1000px;
+        width: 100%;
         height: 385px;
         background-image: url(../../../dist/assets/img/Rectangle_330.svg);
         background-position: bottom;
+        
         background-repeat: no-repeat;
         display: flex;
         justify-content: space-between;
