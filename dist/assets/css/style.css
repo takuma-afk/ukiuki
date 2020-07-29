@@ -521,11 +521,11 @@ a {
 
 .p-sub-imp__mainCont {
 	box-sizing: border-box;
-	width: 100%;
+	max-width: 1000px;
 	height: 385px;
 	background-image: url(../../../dist/assets/img/Rectangle_330.svg);
 	background-position: bottom;
-	background-size: 100%;
+	background-size: contain;
 	background-repeat: no-repeat;
 	display: flex;
 	justify-content: space-between;
@@ -539,6 +539,7 @@ a {
 	box-sizing: border-box;
 	color: white;
 	width: 860px;
+	height: 280px;
 	padding-left: 5.5rem;
 	padding-bottom: 5rem;
 }
@@ -550,7 +551,7 @@ a {
 
 .p-sub-imp__mainCont .p-sub-imp__mainTextarea p {
 	font-size: 1.8rem;
-	letter-spacing: 0.1rem;
+	line-height: 1.8rem;
 	margin-top: 1.8rem;
 }
 
@@ -569,11 +570,11 @@ a {
 
 .p-sub-imp__mainCont--mod {
 	box-sizing: border-box;
-	width: 100%;
+	max-width: 1000px;
 	height: 385px;
 	background-image: url(../../../dist/assets/img/Rectangle_331.svg);
 	background-position: bottom;
-	background-size: 100%;
+	background-size: contain;
 	background-repeat: no-repeat;
 	display: flex;
 	justify-content: space-between;
@@ -587,6 +588,7 @@ a {
 	box-sizing: border-box;
 	color: white;
 	width: 860px;
+	height: 280px;
 	padding-left: 5.5rem;
 	padding-bottom: 5rem;
 }
@@ -598,7 +600,7 @@ a {
 
 .p-sub-imp__mainCont--mod .p-sub-imp__mainTextarea p {
 	font-size: 1.8rem;
-	letter-spacing: 0.1rem;
+	line-height: 1.8rem;
 	margin-top: 1.8rem;
 }
 

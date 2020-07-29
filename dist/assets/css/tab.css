@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 .tabs {
-  width: 50%;
+  width: 75%;
+  max-width: 1000px;
   margin: 10px auto;
   position: relative;
 }
