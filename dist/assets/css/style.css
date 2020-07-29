@@ -520,25 +520,31 @@ a {
 }
 
 .p-sub-imp__mainCont {
-	box-sizing: border-box;
 	max-width: 1000px;
 	height: 385px;
-	background-image: url(../../../dist/assets/img/Rectangle_330.svg);
-	background-position: bottom;
-	background-size: contain;
-	background-repeat: no-repeat;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
 	padding-top: 5.5rem;
 	padding-left: 5.5rem;
 	padding-right: 5.5rem;
+	position: relative;
+	z-index: 2;
+}
+
+.p-sub-imp__mainCont::after {
+	content: url(../../../dist/assets/img/Rectangle_330.svg);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
 }
 
 .p-sub-imp__mainCont .p-sub-imp__mainTextarea {
 	box-sizing: border-box;
 	color: white;
 	width: 860px;
+	min-width: 460px;
 	height: 280px;
 	padding-left: 5.5rem;
 	padding-bottom: 5rem;
@@ -572,22 +578,29 @@ a {
 	box-sizing: border-box;
 	max-width: 1000px;
 	height: 385px;
-	background-image: url(../../../dist/assets/img/Rectangle_331.svg);
-	background-position: bottom;
-	background-size: contain;
-	background-repeat: no-repeat;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
 	padding-top: 5.5rem;
 	padding-left: 5.5rem;
 	padding-right: 5.5rem;
+	position: relative;
+	z-index: 2;
+}
+
+.p-sub-imp__mainCont--mod::after {
+	content: url(../../../dist/assets/img/Rectangle_331.svg);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
 }
 
 .p-sub-imp__mainCont--mod .p-sub-imp__mainTextarea {
 	box-sizing: border-box;
 	color: white;
 	width: 860px;
+	min-width: 460px;
 	height: 280px;
 	padding-left: 5.5rem;
 	padding-bottom: 5rem;
@@ -676,5 +689,15 @@ a {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+@media (max-width: 768px) {
+
+.p-sub-imp__mainCont {
+	padding-top: 0rem;
+	padding-left: 0rem;
+	padding-right: 0rem;
+}
+
 }
 

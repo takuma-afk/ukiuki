@@ -1,6 +1,11 @@
+
+
 $ukuk-color: #ED711A;
 $ukuk-color2: #FFA800;
 $ukuk-color3: #FF3D00;
+
+@import "./config/_variables";
+@import "./config/_mixins";
 
 html {
     font-size: 62.5%;
@@ -28,7 +33,6 @@ img {
 a {
     display: block;
 }
-
 @import './layout/_header';
 @import './layout/_main';
 
