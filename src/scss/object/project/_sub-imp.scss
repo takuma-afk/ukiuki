@@ -1,18 +1,20 @@
-.p-sub-imp{
+.p-sub-imp {
     height: auto;
     margin: 0 auto;
-    &__h2{
+
+    &__h2 {
         margin: 0 auto;
         width: max-content;
         font-size: 36px;
     }
-    &__mainCont{
+
+    &__mainCont {
         box-sizing: border-box;
         width: 100%;
         height: 385px;
         background-image: url(../../../dist/assets/img/Rectangle_330.svg);
         background-position: bottom;
-        
+
         background-repeat: no-repeat;
         display: flex;
         justify-content: space-between;
@@ -20,29 +22,45 @@
         padding-top: 5.5rem;
         padding-left: 5.5rem;
         padding-right: 5.5rem;
-    
-        .p-sub-imp__mainTextarea{
+
+        .p-sub-imp__mainTextarea {
             box-sizing: border-box;
             color: white;
-            width: 50%;
-            
+            width: 860px;
+
             padding-left: 5.5rem;
-    h3{
-        font-size: 2.8rem;
-        margin-bottom: 2.4rem;
-    }
-    p{
-        font-size: 1.8rem;
-        letter-spacing: 0.1rem;
-        margin-top: 1.8rem;
-    }
-    
+
+            h3 {
+                font-size: 2.8rem;
+                margin-bottom: 2.4rem;
+            }
+
+            p {
+                font-size: 1.8rem;
+                letter-spacing: 0.1rem;
+                margin-top: 1.8rem;
+            }
+
         }
-        
+
+        .p-sub-imp__studentImg {
+            height: 385px;
+            width: 435px;
+            position: relative;
+
+            img {
+                height: 385px;
+                width: 435px;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+
     }
-    &__mainCont--mod{
+
+    &__mainCont--mod {
         box-sizing: border-box;
-        width: 1000px;
+        width: 100%;
         height: 385px;
         background-image: url(../../../dist/assets/img/Rectangle_331.svg);
         background-position: bottom;
@@ -53,27 +71,41 @@
         padding-top: 5.5rem;
         padding-left: 5.5rem;
         padding-right: 5.5rem;
-    
-        .p-sub-imp__mainTextarea{
+
+        .p-sub-imp__mainTextarea {
             box-sizing: border-box;
             color: white;
-            width: 50%;
-            
+            width: 860px;
+
             padding-left: 5.5rem;
-    h3{
-        font-size: 2.8rem;
-        margin-bottom: 2.4rem;
-    }
-    p{
-        font-size: 1.8rem;
-        letter-spacing: 0.1rem;
-        margin-top: 1.8rem;
-    }
-    
+
+            h3 {
+                font-size: 2.8rem;
+                margin-bottom: 2.4rem;
+            }
+
+            p {
+                font-size: 1.8rem;
+                letter-spacing: 0.1rem;
+                margin-top: 1.8rem;
+            }
+
+
         }
-        
+
+        .p-sub-imp__studentImg {
+            height: 385px;
+            width: 435px;
+            position: relative;
+
+            img {
+                height: 385px;
+                width: 435px;
+                position: absolute;
+                bottom: 0;
+            }
+        }
     }
-    span{
-        
-    }
+
+    span {}
 }

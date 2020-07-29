@@ -16,7 +16,7 @@ body {
 }
 
 img {
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 
@@ -538,7 +538,7 @@ a {
 .p-sub-imp__mainCont .p-sub-imp__mainTextarea {
 	box-sizing: border-box;
 	color: white;
-	width: 50%;
+	width: 860px;
 	padding-left: 5.5rem;
 }
 
@@ -553,9 +553,22 @@ a {
 	margin-top: 1.8rem;
 }
 
+.p-sub-imp__mainCont .p-sub-imp__studentImg {
+	height: 385px;
+	width: 435px;
+	position: relative;
+}
+
+.p-sub-imp__mainCont .p-sub-imp__studentImg img {
+	height: 385px;
+	width: 435px;
+	position: absolute;
+	bottom: 0;
+}
+
 .p-sub-imp__mainCont--mod {
 	box-sizing: border-box;
-	width: 1000px;
+	width: 100%;
 	height: 385px;
 	background-image: url(../../../dist/assets/img/Rectangle_331.svg);
 	background-position: bottom;
@@ -571,7 +584,7 @@ a {
 .p-sub-imp__mainCont--mod .p-sub-imp__mainTextarea {
 	box-sizing: border-box;
 	color: white;
-	width: 50%;
+	width: 860px;
 	padding-left: 5.5rem;
 }
 
@@ -584,6 +597,19 @@ a {
 	font-size: 1.8rem;
 	letter-spacing: 0.1rem;
 	margin-top: 1.8rem;
+}
+
+.p-sub-imp__mainCont--mod .p-sub-imp__studentImg {
+	height: 385px;
+	width: 435px;
+	position: relative;
+}
+
+.p-sub-imp__mainCont--mod .p-sub-imp__studentImg img {
+	height: 385px;
+	width: 435px;
+	position: absolute;
+	bottom: 0;
 }
 
 .p-sub-image {
