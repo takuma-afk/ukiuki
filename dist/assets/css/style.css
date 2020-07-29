@@ -511,11 +511,45 @@ a {
 
 .p-sub-imp {
 	height: auto;
+	margin: 0 auto;
 }
 
 .p-sub-imp__h2 {
 	margin: 0 auto;
 	width: max-content;
+	font-size: 36px;
+}
+
+.p-sub-imp__mainCont {
+	width: 1000px;
+	background-image: url(../../../dist/assets/img/Rectangle_330.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 5.5rem;
+	padding-left: 5.5rem;
+	padding-right: 5.5rem;
+}
+
+.p-sub-imp__mainCont .p-sub-imp__mainTextarea {
+	box-sizing: border-box;
+	color: white;
+	width: 50%;
+	padding-top: 5.5rem;
+	padding-left: 5.5rem;
+}
+
+.p-sub-imp__mainCont .p-sub-imp__mainTextarea h3 {
+	font-size: 2.8rem;
+	margin-bottom: 2.4rem;
+}
+
+.p-sub-imp__mainCont .p-sub-imp__mainTextarea p {
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	margin-top: 1.8rem;
 }
 
 .p-sub-image {
@@ -542,6 +576,12 @@ a {
 
 .p-sub-image__textArea {
 	width: 40%;
+}
+
+.p-sub-hero {
+	width: 2346px;
+	height: 358px;
+	margin: 0 auto;
 }
 
 .u-visuallyHidden {
