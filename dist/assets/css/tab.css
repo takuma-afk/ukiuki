@@ -5,30 +5,54 @@
   max-width: 1000px;
   margin: 10px auto;
   position: relative;
+
+
 }
-.tab-buttons{
+
+@media screen and (max-width:480px) {
+  .tabs {
+    max-width: 480px;
+    width: 100vw;
+  }
+
+
+}
+
+.tab-buttons {
   margin: 0 auto;
+
 }
+
+@media screen and (max-width:480px) {
+  .tab-buttons {
+    width: 100%;
+  }
+
+
+}
+
 .tab-buttons span {
-  font: 400 14px 'open sans', sans-serif;
+  
   cursor: pointer;
   display: block;
   width: 25%;
-  height:auto;
+  height: auto;
   float: left;
   text-align: center;
-  
+
   line-height: 40px;
 }
-.tab-buttons span img{
+
+.tab-buttons span img {
   width: 100%;
 }
+
 .tab-content {
   padding: 15px;
   background: #eee;
   display: block;
   font: 400 13px 'open sans', sans-serif;
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 #lamp {
@@ -43,6 +67,13 @@ margin: 0 auto;
   -webkit-transition: all .3s ease-in;
   -moz-transition: all .3s ease-in;
 }
+
+@media screen and (max-width:480px) {
+  #lamp {
+    top: 56.5rem;
+  }
+}
+
 #lamp.content1 {
   left: 11%;
   background-image: url(../img/Vector_94.svg);
@@ -52,6 +83,7 @@ margin: 0 auto;
   -webkit-transition: all .3s ease-in;
   -moz-transition: all .3s ease-in;
 }
+
 #lamp.content2 {
   left: 35.3%;
   background-image: url(../img/Vector_95.svg);
@@ -71,6 +103,7 @@ margin: 0 auto;
   -webkit-transition: all .3s ease-in;
   -moz-transition: all .3s ease-in;
 }
+
 #lamp.content4 {
   left: 85%;
   background-image: url(../img/Vector_95.svg);
@@ -80,4 +113,3 @@ margin: 0 auto;
   -webkit-transition: all .3s ease-in;
   -moz-transition: all .3s ease-in;
 }
-
