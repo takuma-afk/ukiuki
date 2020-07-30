@@ -39,12 +39,13 @@
             flex-direction: column-reverse;
             align-items: center;
             height: auto;
+            width: 100vw;
 
             &::after {
                 content: url(../../../dist/assets/img/Rectangle_330.svg);
                 position: absolute;
                 bottom: 15%;
-                left: 5%;                
+                left: 5%;
                 z-index: -1;
                 display: none;
             }
@@ -61,14 +62,19 @@
 
             @include mq-sm() {
                 height: auto;
-                width: 100%;
+
+                width: 100vw;
+
                 background-image: url(../../../../dist/assets/img/Rectangle_446.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
             }
 
             h3 {
                 font-size: 2.8rem;
                 margin-bottom: 2.4rem;
-                @include mq-sm(){
+
+                @include mq-sm() {
                     display: none;
                 }
             }
@@ -85,10 +91,27 @@
             height: 385px;
             width: 435px;
             position: relative;
-
+@include mq-sm(){
+    display: none;
+}
             img {
                 height: 385px;
                 width: 435px;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+        .p-sub-imp__studentImg--alt {
+            height: 257px;
+            width: 355px;
+            position: relative;
+display: none;
+@include mq-sm(){
+    display: block;
+}
+            img {
+                height: 257px;
+                width: 355px;
                 position: absolute;
                 bottom: 0;
             }
@@ -117,6 +140,7 @@
             left: 0;
             z-index: -1;
         }
+
         @include mq-md() {
             padding-top: 0rem;
             padding-left: 0rem;
@@ -127,6 +151,7 @@
             flex-direction: column-reverse;
             height: auto;
             align-items: center;
+
             &::after {
                 content: url(../../../dist/assets/img/Rectangle_331.svg);
                 position: absolute;
@@ -145,16 +170,20 @@
             height: 280px;
             padding-left: 5.5rem;
             padding-bottom: 5rem;
+
             @include mq-sm() {
                 height: auto;
-                width: 100%;         
+                width: 100%;
                 background-image: url(../../../../dist/assets/img/Rectangle_445.svg);
-            
+                background-repeat: no-repeat;
+                background-size: cover;
             }
+
             h3 {
                 font-size: 2.8rem;
                 margin-bottom: 2.4rem;
-                @include mq-sm(){
+
+                @include mq-sm() {
                     display: none;
                 }
             }
@@ -172,10 +201,27 @@
             height: 385px;
             width: 435px;
             position: relative;
-
+            @include mq-sm(){
+                display: none;
+            }
             img {
                 height: 385px;
                 width: 435px;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+        .p-sub-imp__studentImg--alt {
+            height: 257px;
+            width: 355px;
+            position: relative;
+            display: none;
+@include mq-sm(){
+    display: block;
+}
+            img {
+                height: 257px;
+                width: 355px;
                 position: absolute;
                 bottom: 0;
             }
